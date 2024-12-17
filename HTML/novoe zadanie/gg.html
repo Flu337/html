@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container__buttons{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+        }
+        .button{
+            transition: 200ms all linear;
+            order: 2px solid transparent;
+            transform: scale(0.8) translateY(-7PX)scale(55px);
+        }
+        .container__buttons-outline{
+            border-bottom: 2px solid rgb(15, 15, 226);
+            font-size: 24px;
+            font-weight: bold;
+            color: rgb(3, 3, 209);
+            cursor: pointer;
+            
+        }
+        .container__buttons-outline:hover{
+        color: gold;
+        border-bottom: 2px solid gold;
+        }
+        .container__buttoms-solid{
+            display: flex;
+            background-color: blue;
+            color: white;
+            font-size: 24px;
+            padding:10px 20px ;
+            border-radius: 12px;
+            cursor: pointer;
+            font-weight: bold;
+            
+    
+        }
+        .container__buttoms-solid:hover{
+            background-color: white;
+            color: blue;
+            border: 2px solid blue;
+            transform: scale(0.8) translateY(-7PX)scale(55px);
+        }
+        .svg-rotat{
+            width: 35px;
+            height: 35px;
+        
+
+
+        }
+        .container__buttons-rotate{
+            background-color: rgb(119, 151, 151);
+            border-radius: 12px;
+            padding: 6px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container__buttons-rotate:hover{
+            transform: rotate(980deg);
+            
+        }
+        .container__instate{
+            width: 75px;
+            height: 75px;
+            background-color: red;
+            animation: 1s infinite linear rotation alternate;
+            
+            
+        }
+        @keyframes rotation {
+            from{
+                transform: rotate(0deg);
+                border-radius: 0%;
+                opacity: 0;
+
+
+            }
+            to{
+                transform: rotate(360deg);
+                border-radius: 100%;
+                opacity: 1;
+               
+            }
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container__buttons">
+            <div class="container__buttons-outline button">
+                назад 
+            </div>
+            <div class="container__buttoms-solid button">
+                меню
+
+            </div>
+            <div class="container__buttons-rotate button">
+                <div class="svg-rotate" stroke="currentColor">dsafas</div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="container__instate">
+        inamte
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+h1,{
+    background-color:   green;
+    font-size: 2rem;
+}
+/*кнопка*/
+button {
+    background-color: blue;
+    font-size: 5rem;
+}
+#front {
+    background-color: rgb(105, 10, 184);
+    color: rgb(17, 228, 17);
+}
+
+
+
+
+
+table {
+    font-family: Trattatello, fantasy;
+    table-layout: fixed;
+    width: 50%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+  }
+
+.box {
+    width: 200px;
+    height: 200px;
+    img { 
+        height: 100%;
+width: 100%;
+    }
+    .cover {
+        object-fit: cover;
+    }
+}
+.ggdas{
+    background-color: #567895;
+  }
+  
+  h2 {
+    background-color: black;
+    color: white;
+  }
+  span {
+    background-color: rgb(255 255 255 / 50%);
+  }

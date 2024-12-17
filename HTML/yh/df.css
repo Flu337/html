@@ -1,0 +1,23 @@
+body{ 
+    display: flex;
+    background-color: rgb(149, 149, 221);
+
+}
+.polina{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.dura{
+    border: 3px solid white;
+    
+    width: 40px;
+    height: 40px;
+}
+img{
+    display: flex;
+    width: 80px;
+}

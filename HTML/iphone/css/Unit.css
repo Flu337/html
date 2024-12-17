@@ -1,0 +1,27 @@
+.Unit{
+    background-color: #f5f5f7;
+    
+}
+.Unit_title{ 
+    font-size: 56px; 
+    line-height: 1.07143; 
+    font-weight: 600; 
+    letter-spacing: -.005em; 
+    color: #1d1d1f; 
+} 
+.Unit_subtitle{ 
+    font-size: 28px; 
+    line-height: 1.14286; 
+    font-weight: 400; 
+    letter-spacing: .007em; 
+    margin-top: 6px; 
+    color: #1d1d1f; 
+} 
+.Unit_avaliable{ 
+    font-size: 19px; 
+    line-height: 1.21053; 
+    font-weight: 400; 
+    letter-spacing: .012em; 
+    color: #6e6e73; 
+    margin-top: 8px; 
+}

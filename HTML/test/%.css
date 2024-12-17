@@ -1,0 +1,8 @@
+.link {
+    color: #000000;
+  }
+  
+  .link:focus {
+    color: #00e48c;
+    border: 1px solid blue;
+  }

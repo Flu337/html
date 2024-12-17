@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .container__text{
+            position: relative;
+         }
+
+        
+        .container__text::after{
+            content: '!';
+            color: blue;
+            background-color: orange;
+            position:absolute;
+            right: 20px;
+            top: 20px;
+
+        }
+        .container__text::before{
+            content: "⏱";
+            background-color: red;
+        
+            color: blueviolet;
+        }
+        .container__input-element{
+                outline: none;
+                border: 2px solid gray;
+                border-radius: 4px;
+        }
+        .container__input-element::hover{
+            border-color:aquamarine ;
+        }
+        .container__input-element:active,
+        .container__input-element:focus{
+            border-color: orange;
+        }
+        .container__input-element::placeholder{
+            color:blue;
+
+
+        }
+        .container__input{
+            position: relative;
+
+
+        }
+        .container__input::after{
+            content: "\2714";
+            color: grey;
+            position: absolute;
+            top: 2px;
+
+        }
+    </style>
+</head>            
+<body>
+    <div class="container">
+        <div class="container__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem error magni perspiciatis minima distinctio omnis mollitia blanditiis asperiores alias sit natus, cum tempore ducimus. Excepturi deserunt harum inventore id asperiores.
+            Facere iusto commodi deserunt error temporibus esse sunt quae nemo praesentium deleniti? In delectus odit cum voluptate quia voluptas quae quos amet rem nihil, earum quibusdam sed consequatur ipsa dignissimos?
+            Ipsum distinctio voluptates a eaque ab labore quod rem, fugiat architecto aliquam nam beatae unde iusto ex voluptas molestias. Qui tempore iste voluptatibus, cum recusandae veniam! Vel aliquid possimus asperiores?
+            Aperiam nihil velit rerum iste, repudiandae dolorum alias dicta aliquid ex placeat molestias quos inventore doloribus consectetur maiores molestiae fugiat voluptatum praesentium mollitia. Atque illo magni non inventore vel aut!
+            Ducimus veniam quidem quisquam, hic necessitatibus dolorem mollitia accusamus assumenda dolorum, aperiam modi illo quibusdam nobis, error totam suscipit dignissimos iure? Dolores obcaecati voluptatem optio vel officiis placeat omnis saepe!
+        </div>
+        <div class="container_input">
+            <input
+            class="container__input-element"
+            placeholder="login"
+            type="text">
+        </div>
+    </div>
+</body>
+</html>

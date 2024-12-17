@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  background-color: rgb(155, 155, 238);
+}
+
+.road {
+  position: relative;
+  width: 100%;
+  height: 50vh; 
+  overflow: hidden;
+  background: linear-gradient(to bottom, #555, #444);
+}
+
+.coleso-1 {
+  display: flex;
+  position: absolute;
+  top: 70%;
+  transform: translate(0%, 0%);
+  
+}
+
+.coleso__left {
+  border: 6px solid black;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+
+  background: white;
+}
+.coleso-2{
+  display: flex;
+  position: absolute;
+  top: 70%;
+  transform: translate(0%, 0%);
+  left: 180px;
+}
+.coleso__right {
+  border: 6px solid black;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background: white;
+}
+
+.telo {
+  display: flex;
+  position: absolute;
+  top: 47%;
+  left: 100px; 
+  animation: moveCar 5s linear forwards; 
+}
+
+.telo__cube {
+  border: 6px solid rgb(255, 0, 0);
+  width: 200px;
+  height: 50px;
+  background: red;
+}
+
+.fara {
+  display: flex;
+  position: absolute;
+  top: 0%;
+  left:87% ;
+}
+
+.fara__con {
+  border: 3px solid black;
+  width: 20px;
+  height: 15px;
+  border-radius: 20%;
+  background-color: azure;
+}
+
+.vverh {
+  display: flex;
+  position: absolute;
+  top: -100px;
+  left: 0%;
+}
+
+.vverh__notext {
+  border-bottom: 100px solid rgb(3, 2, 2);
+	border-left: 50px solid transparent;
+	border-right: 60px solid transparent;
+	height: 0;
+	width: 70px;
+}
+
+.okno {
+  display: flex;
+  position: absolute;
+  top: -100px;
+  left: -10px;
+}
+
+.okno__left {
+  left: 0%;
+  border-bottom: 100px solid rgb(255, 255, 255);
+  border-left: 50px solid transparent;
+  border-right: 0px solid transparent;
+  width: 15px;
+}
+
+.okno__right {
+  left: 55%;
+  border-bottom: 100px solid rgb(255, 255, 255);
+  border-left: 0px solid transparent;
+  border-right: 50px solid transparent;
+  width: 15px;
+}
+
+  @keyframes moveCar {
+    from {
+        left: -200px; 
+    }
+    to {
+        left: calc(80% - 90px); 
+    }
+}

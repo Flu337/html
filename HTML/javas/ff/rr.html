@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="article">
+        
+        <h3>заголовок</h3>
+        <p class="text" >первый абзац</p>
+        <p class="text" > второй абзац </p>
+    </div>
+    
+    <script>
+        let articleDiv = document.getElementsByClassName("article")[0]; 
+        console.log(articleDiv);
+        let textElems = document.getElementsByClassName("text");
+        for (let i = 0; i < textElems.length; i++) {
+            console.log(textElems[i]);
+        }
+    </script>
+</body>
+</html>

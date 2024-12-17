@@ -1,0 +1,25 @@
+.Navbar{
+    background-color: #161617cc;
+}
+.Navbar__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Navbar__content-item{
+    font-size: 14px;
+    color: #fffc;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Navbar__content-item:hover{
+    color: #fffc;
+}
+.Navbar__content-item svg{
+    fill: #fffc;
+}
+.Navbar__content-item:hover svg{
+    color: #fffc;
+}

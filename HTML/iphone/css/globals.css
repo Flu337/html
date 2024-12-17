@@ -1,0 +1,30 @@
+body {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SFPRO";
+    
+}
+@font-face {
+    font-family: "SFPRO" ;
+    src: url(fonts/SFPRODISPLAYREGULAR.OTF);
+font-weight: 400;
+}
+
+@font-face {
+    font-family: "SFPRO" ;
+    src: url(fonts/SFPRODISPLAYMEDIUM.OTF);
+font-weight: 500;
+}
+@font-face {
+    font-family: "SFPRO" ;
+    src: url(fonts/SFPRODISPLAYBOLD.OTF);
+font-weight: 700;
+}
