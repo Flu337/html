@@ -1,0 +1,29 @@
+.footer {
+    text-align: center;
+    padding: 20px;
+    top: 100%;
+    left: 30%;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.6;
+    position: absolute;
+    z-index: 1;
+  }
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+    
+  }
+  .footer-links {
+    margin: 15px 0;
+    
+  }
+  
